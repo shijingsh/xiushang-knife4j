@@ -6,7 +6,7 @@
 
     <groupId>com.github.shijingsh</groupId>
     <artifactId>knife4j</artifactId>
-    <version>3.0.3</version>
+    <version>3.0.4</version>
     <modules>
         <module>knife4j-annotations</module>
         <module>knife4j-spring</module>
@@ -32,7 +32,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
 
-        <knife4j.version>3.0.3</knife4j.version>
+        <knife4j.version>3.0.4</knife4j.version>
         <java.version>1.8</java.version>
         <spring.version>5.1.0.RELEASE</spring.version>
         <springfox.version>3.0.0</springfox.version>
