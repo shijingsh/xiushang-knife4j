@@ -261,7 +261,11 @@ public class RequestParameterMapper {
         .description(source.getDescription())
         .name(source.getName())
         .schema(schema);
-    parameter.setIn(source.getIn().getIn());
+    if(source.getIn()==null){
+        parameter.setIn(ParameterType.QUERY.getIn());
+    }else {
+        parameter.setIn(source.getIn().getIn());
+    }
     parameter.setRequired(source.getRequired());
     parameter.getVendorExtensions().putAll(VENDOR_EXTENSIONS_MAPPER.mapExtensions(source.getExtensions()));
     for (Example example : source.getExamples()) {
