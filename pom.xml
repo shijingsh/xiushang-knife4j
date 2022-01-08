@@ -18,6 +18,7 @@
         <module>knife4j-dependencies</module>
         <module>knife4j-springdoc-ui</module>
         <module>knife4j-spring-mvc</module>
+        <module>knife4j-springfox-swagger2</module>
     </modules>
     <packaging>pom</packaging>
     <name>knife4j</name>
