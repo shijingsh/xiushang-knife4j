@@ -43,6 +43,7 @@ import springfox.documentation.spring.web.OnServletBasedWebApplication;
 import springfox.documentation.spring.web.json.Json;
 import springfox.documentation.spring.web.json.JsonSerializer;
 import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.filter.Swagger2WebMvcSwaggerTransformationFilter;
 import springfox.documentation.swagger2.mappers.ServiceModelToSwagger2Mapper;
 
 import javax.servlet.http.HttpServletRequest;
@@ -103,6 +104,9 @@ public class Swagger2ControllerWebMvc {
     for (WebMvcSwaggerTransformationFilter each : filters) {
       context = context.next(each.transform(context));
     }
+
+    new Swagger2WebMvcSwaggerTransformationFilter().transform(context);
+
     return new ResponseEntity<>(jsonSerializer.toJson(context.getSpecification()), HttpStatus.OK);
   }
 

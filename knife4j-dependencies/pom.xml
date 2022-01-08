@@ -115,8 +115,8 @@
                 <version>${knife4j.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger2</artifactId>
+                <groupId>com.github.shijingsh</groupId>
+                <artifactId>knife4j-springfox-swagger2</artifactId>
                 <version>${springfox.version}</version>
             </dependency>
             <dependency>

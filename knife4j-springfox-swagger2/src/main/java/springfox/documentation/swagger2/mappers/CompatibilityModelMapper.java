@@ -21,7 +21,7 @@ public abstract class CompatibilityModelMapper {
   @SuppressWarnings("deprecation")
   Map<String, Model> modelsFromApiListings(Map<String, List<ApiListing>> apiListings) {
     if (useModelV3) {
-      return Mappers.getMapper(ModelSpecificationMapper.class).modelsFromApiListings(apiListings);
+      return new XamsModelSpecificationMapper().modelsFromApiListings(apiListings);
     } else {
       Map<String, springfox.documentation.schema.Model> definitions = new TreeMap<>();
       apiListings.values().stream()
