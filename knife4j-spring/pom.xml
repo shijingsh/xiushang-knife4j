@@ -41,6 +41,12 @@
         <dependency>
             <groupId>com.github.shijingsh</groupId>
             <artifactId>knife4j-springfox-swagger2</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>mockito-core</artifactId>
+                    <groupId>org.mockito</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
