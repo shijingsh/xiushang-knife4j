@@ -20,9 +20,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
 
-        <knife4j.version>3.0.6</knife4j.version>
         <swagger-models.version>1.5.22</swagger-models.version>
-        <springfox.version>3.0.1</springfox.version>
         <springdoc-openapi.version>1.3.4</springdoc-openapi.version>
         <javassist.version>3.25.0-GA</javassist.version>
     </properties>
