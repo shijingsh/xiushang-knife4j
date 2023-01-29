@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.shijingsh</groupId>
     <artifactId>knife4j-springfox-swagger2</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
 
     <name>knife4j-springfox-swagger2</name>
     <description>JSON API documentation for spring based applications</description>
