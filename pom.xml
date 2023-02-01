@@ -39,6 +39,7 @@
         <springfox.version>3.0.0</springfox.version>
         <knife4j.springfox.version>3.0.9</knife4j.springfox.version>
         <springdoc-openapi.version>1.3.4</springdoc-openapi.version>
+        <swagger-models.version>1.5.22</swagger-models.version>
         <servlet.version>3.1.0</servlet.version>
         <clssmate.version>1.5.1</clssmate.version>
         <javassist.version>3.25.0-GA</javassist.version>
@@ -48,6 +49,7 @@
         <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
         <jfinal.version>4.2</jfinal.version>
         <hutool.version>5.4.1</hutool.version>
+        <org.mapstruct.version>1.3.1.Final</org.mapstruct.version>
         <!-- 打包跳过单元测试 -->
         <skipTests>true</skipTests>
     </properties>
