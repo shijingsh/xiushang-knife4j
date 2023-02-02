@@ -80,7 +80,7 @@
         <dependency>
             <groupId>com.fasterxml</groupId>
             <artifactId>classmate</artifactId>
-            <version>1.5.1</version>
+            <version>${clssmate.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -231,7 +231,6 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
