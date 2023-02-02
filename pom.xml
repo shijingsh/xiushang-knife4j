@@ -48,6 +48,7 @@
         <clssmate.version>1.5.1</clssmate.version>
         <javassist.version>3.25.0-GA</javassist.version>
         <slf4j.version>1.7.28</slf4j.version>
+        <jackson.version>2.11.0</jackson.version>
 
         <swagger-models.version>1.5.22</swagger-models.version>
         <swagger2.version>1.5.22</swagger2.version>
@@ -241,7 +242,32 @@
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-models</artifactId>
+                <version>${swagger-models.version}</version>
+            </dependency>
+
+            <!--  jackson -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <artifactId>jackson-annotations</artifactId>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <version>${jackson.version}</version>
+            </dependency>
+
         </dependencies>
+
     </dependencyManagement>
 
     <build>
