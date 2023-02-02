@@ -210,16 +210,6 @@
                 <groupId>com.github.shijingsh</groupId>
                 <artifactId>knife4j-springfox-swagger2</artifactId>
                 <version>${knife4j.springfox.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>io.swagger</groupId>
-                        <artifactId>swagger-models</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>io.swagger</groupId>
-                        <artifactId>swagger-core</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
