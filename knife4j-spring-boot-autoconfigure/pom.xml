@@ -33,6 +33,14 @@
             <artifactId>springfox-boot-starter</artifactId>
             <exclusions>
                 <exclusion>
+                    <groupId>org.springframework.plugin</groupId>
+                    <artifactId>spring-plugin-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework.plugin</groupId>
+                    <artifactId>spring-plugin-metadata</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>io.springfox</groupId>
                     <artifactId>springfox-swagger-ui</artifactId>
                 </exclusion>
