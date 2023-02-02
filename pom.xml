@@ -50,7 +50,6 @@
         <slf4j.version>1.7.25</slf4j.version>
         <jackson.version>2.11.0</jackson.version>
 
-        <swagger-models.version>1.5.22</swagger-models.version>
         <swagger2.version>1.5.22</swagger2.version>
         <swagger3.version>2.1.2</swagger3.version>
 
@@ -145,6 +144,7 @@
                 <artifactId>swagger-models</artifactId>
                 <version>${swagger2.version}</version>
             </dependency>
+
             <!-- https://mvnrepository.com/artifact/io.swagger/swagger-core -->
             <dependency>
                 <groupId>io.swagger</groupId>
@@ -231,12 +231,6 @@
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>${slf4j.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-models</artifactId>
-                <version>${swagger-models.version}</version>
             </dependency>
 
             <!--  jackson -->

@@ -30,7 +30,7 @@
             <dependency>
                 <groupId>io.swagger</groupId>
                 <artifactId>swagger-models</artifactId>
-                <version>${swagger-models.version}</version>
+                <version>${swagger2.version}</version>
             </dependency>
 
             <dependency>
