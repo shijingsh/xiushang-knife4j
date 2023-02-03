@@ -100,9 +100,9 @@ public abstract class ServiceModelToSwagger2Mapper {
   })
   public abstract Swagger mapDocumentation(Documentation from);
 
+  //No method found annotated with: [ @LicenseTranslator and @License ].
   @Mappings({
-      @Mapping(target = "license", source = "from",
-          qualifiedBy = {LicenseMapper.LicenseTranslator.class, LicenseMapper.License.class}),
+      @Mapping(target = "license", source = "from",  qualifiedBy = { LicenseMapper.License.class}),//LicenseMapper.LicenseTranslator.class,
       @Mapping(target = "contact", source = "from.contact"),
       @Mapping(target = "termsOfService", source = "termsOfServiceUrl"),
       @Mapping(target = "vendorExtensions", source = "vendorExtensions"),

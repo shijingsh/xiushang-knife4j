@@ -48,7 +48,7 @@
 
         <servlet.version>3.1.0</servlet.version>
         <clssmate.version>1.5.1</clssmate.version>
-        <javassist.version>3.25.0-GA</javassist.version>
+        <javassist.version>3.27.0-GA</javassist.version>
         <slf4j.version>1.7.25</slf4j.version>
         <jackson.version>2.11.0</jackson.version>
 
@@ -57,7 +57,7 @@
 
         <jfinal.version>4.2</jfinal.version>
         <hutool.version>5.4.1</hutool.version>
-        <org.mapstruct.version>1.3.1.Final</org.mapstruct.version>
+        <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <!-- 打包跳过单元测试 -->
         <skipTests>true</skipTests>
     </properties>
