@@ -58,6 +58,7 @@
         <jfinal.version>4.2</jfinal.version>
         <hutool.version>5.4.1</hutool.version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
+        <snakeyaml.version>1.28</snakeyaml.version>
         <!-- 打包跳过单元测试 -->
         <skipTests>true</skipTests>
     </properties>
@@ -252,6 +253,12 @@
                 <version>${jackson.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${snakeyaml.version}</version>
+                <scope>compile</scope>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>
